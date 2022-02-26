@@ -4,6 +4,8 @@ The Odin Project - Rock Paper Scissors Project
 
 **26/02/2022** - A simple rock paper scissors game played through the console. 
 
+Site: https://jessumguy.github.io/rock-paper-scissors-game/
+
 ![](https://github.com/jessumguy/rock-paper-scissors-game/blob/main/rockpaperscissors-consolegame.gif)
 
 **Reflection:**
