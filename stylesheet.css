@@ -1,0 +1,56 @@
+html {
+  color: white;
+  background: url(pixel-art-wallpaper.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black; 
+}
+
+.btn_hover:hover {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+.btn_hover:active {
+  transform: scale(1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+.disabled {
+  transform: scale(1);
+  border-color: #292824;
+  box-shadow: 0 0 1rem #413d2a;
+  color: #31312d;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #8802bd;
+}

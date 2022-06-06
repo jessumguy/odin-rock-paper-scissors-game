@@ -3,9 +3,37 @@
   <header>
     <title>Rock Paper Scissors</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" type="text/css" href="stylesheet.css" media="screen"/>
+    <script src="script.js" defer></script>
   </header>
   <body>
-    <p>Hello World!</p>
+    <h1>Rock, Paper Scissors!</h1>
+
+    <div id="scoreboard">
+      <div id="playerscore">
+        <h2>Your Score</h2>
+      </div>
+      <div id="computerscore">
+        <h2>CPU Score</h2>
+      </div>
+    </div>
+
+    <div id="round-results"></div> 
+
+    <div id="player-selections">
+      <button class="btn_hover" value="rock">ROCK</button>
+      <button class="btn_hover" value="paper">PAPER</button>
+      <button class="btn_hover" value="scissors">SCISSORS</button>
+    </div>
+
+    <div id="credits">
+      <h2>Credits</h2>
+      <ol>
+        <li>Backgound from <a href="https://wallpapercave.com/w/wp1933957">wallpapercave</a></li>
+        <li>Button design from <a href="https://github.com/wesbos/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit">Wesbos's JavaScript 30 - 01 JavaScript Drum Kit</a></li>
+      </ol>
+    </div>
+
   </body>
-  <script src="script.js"></script>
 </html>
