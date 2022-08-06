@@ -2,7 +2,7 @@
 
 The Odin Project - Rock Paper Scissors Project
 
-Site: https://jessumguy.github.io/rock-paper-scissors-game/
+Demo: https://jessumguy.github.io/odin-rock-paper-scissors-game/
 
 ![](https://github.com/jessumguy/rock-paper-scissors-game/blob/main/odin_project_rps_with_UI.gif)
 
